@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Ubuntu+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Press A to start</h1>
+        <p>Simon will give the first signal. Repeat the signal by pressing the same color square.</p>
+        <p>Simon will duplicate the previous signal and add one. Repeat these signals by pressing the same color squares, in order. </br> The number of signals will increase with each level.</p>
+        <p>If you press the wrong one, you lose.</p>
+    </header>
+    <main>
+            <div class="row">
+                <div class="green square" id="green"></div>
+                <div class="red square" id="red"></div>
+            </div>
+            <div class="row">
+                <div class="yellow square" id="yellow"></div>
+                <div class="blue square" id="blue"></div>
+            </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+/*TAGS*/
+html{
+    height: 100%;
+    background-color: #3B3C36;
+    overflow: hidden;
+}
+body{
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+header{
+    color: #F5F5F5;
+    text-align: center;
+}
+h1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2.5rem;
+    padding: 30px 0;
+    margin-top: 0;
+}
+p{
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+}
+
+/*CLASSES*/
+
+.square{
+    border: 10px solid #555555;
+    border-radius: 40px;
+    height: 200px;
+    margin: 25px;
+    width: 200px;
+}
+.row:first-child .square:first-child, .row:first-child .square:nth-child(2){
+    margin-top: 0;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+.animationFlash{
+    border-color: #F5F5F5;
+    box-shadow: 0 0 20px #F5F5F5;
+}
+.animationWrong{
+    background-color: red;
+}
+/*CONTAINERS*/
+
+.row{
+    display: flex;
+    justify-content: center;
+}
